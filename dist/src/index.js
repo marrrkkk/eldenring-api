@@ -1,0 +1,56 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EldenRing = void 0;
+const bosses_1 = require("./api/bosses");
+const ammos_1 = require("./api/ammos");
+const armors_1 = require("./api/armors");
+const ashes_1 = require("./api/ashes");
+const classes_1 = require("./api/classes");
+const creatures_1 = require("./api/creatures");
+const incantations_1 = require("./api/incantations");
+const items_1 = require("./api/items");
+const locations_1 = require("./api/locations");
+const npc_1 = require("./api/npc");
+const shields_1 = require("./api/shields");
+const sorceries_1 = require("./api/sorceries");
+const spirits_1 = require("./api/spirits");
+const talismans_1 = require("./api/talismans");
+const utility_1 = require("./api/utility");
+const weapons_1 = require("./api/weapons");
+class EldenRing {
+    boss;
+    ammo;
+    armor;
+    ashes;
+    classes;
+    creature;
+    incantation;
+    item;
+    location;
+    npc;
+    utility;
+    shield;
+    sorcery;
+    spirit;
+    talisman;
+    weapon;
+    constructor() {
+        this.ammo = new ammos_1.Ammo();
+        this.boss = new bosses_1.Boss();
+        this.armor = new armors_1.Armor();
+        this.ashes = new ashes_1.Ashes();
+        this.classes = new classes_1.Class();
+        this.creature = new creatures_1.Creature();
+        this.incantation = new incantations_1.Incantation();
+        this.item = new items_1.Item();
+        this.location = new locations_1.Location();
+        this.npc = new npc_1.NPC();
+        this.utility = new utility_1.Utility();
+        this.shield = new shields_1.Shield();
+        this.sorcery = new sorceries_1.Sorcery();
+        this.spirit = new spirits_1.Spirit();
+        this.talisman = new talismans_1.Talisman();
+        this.weapon = new weapons_1.Weapon();
+    }
+}
+exports.EldenRing = EldenRing;

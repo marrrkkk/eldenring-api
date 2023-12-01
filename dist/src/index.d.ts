@@ -1,0 +1,35 @@
+import { Boss } from "./api/bosses";
+import { Ammo } from "./api/ammos";
+import { Armor } from "./api/armors";
+import { Ashes } from "./api/ashes";
+import { Class } from "./api/classes";
+import { Creature } from "./api/creatures";
+import { Incantation } from "./api/incantations";
+import { Item } from "./api/items";
+import { Location } from "./api/locations";
+import { NPC } from "./api/npc";
+import { Shield } from "./api/shields";
+import { Sorcery } from "./api/sorceries";
+import { Spirit } from "./api/spirits";
+import { Talisman } from "./api/talismans";
+import { Utility } from "./api/utility";
+import { Weapon } from "./api/weapons";
+export declare class EldenRing {
+    boss: Boss;
+    ammo: Ammo;
+    armor: Armor;
+    ashes: Ashes;
+    classes: Class;
+    creature: Creature;
+    incantation: Incantation;
+    item: Item;
+    location: Location;
+    npc: NPC;
+    utility: Utility;
+    shield: Shield;
+    sorcery: Sorcery;
+    spirit: Spirit;
+    talisman: Talisman;
+    weapon: Weapon;
+    constructor();
+}
