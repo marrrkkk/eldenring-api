@@ -12,5 +12,13 @@
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.3.2"
-  }
+  },
+  "repository": {
+    "url": "https://github.com/marrrkkk/eldenring-api"
+  },
+  "keywords": [
+    "api",
+    "api-wrapper",
+    "elden-ring"
+  ]
 }
